@@ -1,0 +1,6 @@
+<h1> <%= @task[:title] %> </h1>
+<p> <%= link_to 'Edit this task', edit_path(@task[:id]) %>
+<p style="padding: 2px 30px ; background-color: gray; border-radius: 5px" > <%= @task[:details] %></p>
+<p><%= link_to '< back to list', '/tasks' %></p>
+
+

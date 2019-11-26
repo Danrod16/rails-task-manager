@@ -1,0 +1,42 @@
+// Place all the styles related to the tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  background-color: rgb(123, 191, 176);
+  color: white;
+  font-family: arial;
+}
+
+.container {
+  margin: 100px;
+  padding: 100px;
+  text-align: center;
+
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  &:hover {
+    color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+#title {
+  display: inline;
+}
+
+li {
+  display: inline-block;
+  text-align: inline;
+}
+
+h1 {
+  color: rgba(0, 0, 0, 0.3)
+}
+
+h3 {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.5);
+}
